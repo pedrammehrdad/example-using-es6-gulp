@@ -1,0 +1,32 @@
+.rank-place .dropdown .dropdown-menu {
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.rank-place .dropdown .input {
+    color: white;
+}
+
+.selected-item {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    padding-top: .4rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.selected-item:after {
+    content: 'X';
+    position: absolute;
+    top: -13px;
+    text-align: center;
+    right: -10px;
+    color: red;
+    background: white;
+    border-radius: 100%;
+    height: 22px;
+    width: 22px;
+    box-shadow: 1px 1px 1px black
+}
